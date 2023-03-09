@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            color: black;
+        }
+        fieldset{
+            background-color: rgb(150, 163, 252);
+        }
+        legend{
+            color: rgb(0, 0, 0);
+        }
+        h1{
+            color: rgb(0, 0, 0);
+        }
+        th{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1> Ficha de cadastro </h1>
+    <fieldset>
+        <legend> Dados Pessoais: </legend>
+
+<table>
+    <tr>
+        <td>
+            <label> Nome Aluno </label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Nascimento </label>
+        </td>
+        <td>
+            <input type="date">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Idade </label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>  Nome Mãe </label>
+        </td>
+        <td>
+            <input type="password" placeholder=" Digite o nome da mãe ">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Telefone </label>
+        </td>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Email </label>
+        </td>
+        <td>
+            <input type="password" placeholder=" Digite o email ">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Senha </label>
+        </td>
+        <td>
+            <input type="password" placeholder=" Digite a senha ">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label> Foto </label>
+        </td>
+        <td>
+            <input type="file">
+        </td>
+    </tr>
+    </fieldset>
+</table>
+<br>
+    <fieldset> 
+        <legend> Informações de Matrícula</legend>
+        <table border=1>
+            <tr>
+                <th colspan="1" style="background-color: rgb(172, 118, 238);">
+                    Série
+                 </th>
+                 <th  colspan="1" style="background-color: rgb(118, 152, 238);">
+                     Turno
+                 </th>
+                  <th colspan="1" style="background-color: rgb(146, 118, 238);">
+                     
+                    Atividades
+                </th>
+            </tr>
+           <tr>
+            <td>
+                <select>
+                    <option selected value=""> Selecione a escolaridade </option>
+                    <option value="prímeiro ano"> 1º Ano</option>
+                    <option value="segundo ano"> 2º Ano</option>
+                    <option value="terceiro ano"> 3º Ano</option>
+                    <option value="quarto ano"> 4º Ano</option>
+                    <option value="quinto ano"> 5º Ano</option>
+                    <option value="sesto ano"> 6º Ano</option>
+                    <option value="setino ano"> 7º Ano</option>
+                    <option value="oitavo ano"> 8º Ano</option>
+                    <option value="nono ano"> 9º Ano</option>
+                    <option value="prímeiro ano EM"> 1º Ano</option>
+                    <option value="segundo  ano EM"> 2º Ano</option>
+                    <option value="terceiro ano EM"> 3º Ano</option>
+                  </select>
+            </td>
+            <td>
+                <input type="radio" name="tamanho"> Manhã <br>
+            <input type="radio" name="tamanho"> Tarde <br>
+            </td>
+            <td>
+                <input type="checkbox"> Informática <br>
+            <input type="checkbox"> Música <br>
+            <input type="checkbox"> Pintura <br>
+            <input type="checkbox"> Judô <br>
+            <input type="checkbox"> Futebol <br>
+            </td>
+           </tr>
+    
+        </table>
+
+    </fieldset>
+    <fieldset>
+        <legend> Observação </legend>
+        <textarea></textarea>
+        <style>
+            textarea{
+                width: 100% ;
+            }
+        </style>
+    </fieldset>
+    <input type="submit" value="Enviar">
+
+    <input type="reset" value="Limpar">
+
+<br>
+</body>
+</html>
