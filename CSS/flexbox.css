@@ -1,0 +1,46 @@
+.Flex-1{
+   display: flex;
+background-color: aquamarine;
+}
+.flex-coluna{
+    background-color: rgb(66, 61,61);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column ;
+}
+.wrap{
+    background-color: rgb(102,103,103);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    margin: 10px;
+
+}
+
+.centralizar-x{
+    background-color: rgb(102,103,103);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-auround{
+    background-color: rgb(102,103,103);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.space-between {
+    background-color: rgb(102,103,103);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: s
+    space-between;
+}

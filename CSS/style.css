@@ -1,0 +1,108 @@
+body{
+    /* Colocando cor de fundo do body (corpo da pg) */
+    background-color: rgb(64, 5, 128);
+}
+
+h1 {
+    text-align: center; /*Centralizando tags h1*/
+}
+p {
+    color: rgb(147, 147, 241); /* Alterando a cor do texto */
+}
+ img{
+    width: 400px;
+    height: 400px;
+ }
+ h2 {
+    background-color: rgb(147, 147, 241); /* Alterando a cor do texto */
+    Font-size: 20px; /* alterando o tamanho da fonte */
+}
+h3 {
+    background-color: rgb(147, 147, 241); 
+    Font-size: 18px; 
+    text-align: right;
+    color:rgb(255, 255, 255)
+}
+.p-preto {
+      color:black;
+}
+.p-roxo {
+    color: blueviolet;
+}
+.p-branco {
+    color: blanchedalmond;
+}
+
+#p-rosa { /*seletor id o unico com q começa com #  */
+    color: rgb(255, 0, 251);
+}
+.font-courier-new {
+    /*Alterando a fonte de um texto*/
+}
+
+    .opacidade {
+        background-color : green;
+        opacity: 0.3;
+    }
+
+    .opacidade {
+        background-color : rgba(0, 128, 0, 0.3);
+       
+    }
+   .fundo-imagem{
+        height: 500px;
+        background-image: url("../img/avatars-000179570862-sfjp1k-t500x500.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .fundo-tela-dinamico {
+        height: 1000px;
+        background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+        background-size: cover;
+    }
+.Logo{
+    width: 80px;
+    height: 40px;
+}
+   .div1{
+    border: 1px solid black;
+    background-color: rgb(193, 94, 254);
+   }
+   .div2 {
+    border: 1px solid black;
+    background-color: rgb(182, 66, 255);
+    text-align: right;
+   }
+   .margin{
+    background-color: rgba(152, 43, 255, 0.93);
+    color:rgb(207, 155, 255);
+    Margin-left:10px;
+   }
+   .div-centralizada{
+    background-color: darkmagenta;
+    width: 150px; /* Definindo a largura da div */
+   }
+    .div-padding{
+        background-color: green;
+        margin: 20px;
+    }
+    .div-completa{
+        border: 4px solid black;
+        background-color:aqua;
+        
+    }
+
+.botao {
+    background-color: rgb(0, 255, 204);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid rgb(64, 5, 128);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+   
+    
+
+

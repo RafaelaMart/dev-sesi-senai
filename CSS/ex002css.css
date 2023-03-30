@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
+h1 {
+    color:azure
+    
+    
+}
+h1 {
+    color:azure
+}
+td {
+    height: 100px;
+    width: 100px;
+}
+.p-azul {
+    background-color: blue;
+}
+.p-amarelo{
+    background-color: yellow;
+}
+.p-verde {
+    background-color: green;
+}
+.p-vermelho{
+    background-color: red;
+}
+.p-roxo {
+background-color: blueviolet;
+}
+.p-preto {
+    background-color: black;
+}
+.sombreado {
+/* text-shadow colocando sobreado no texto
+eixo x, eixo y, esfumaçado, cor */
+text-shadow: 2px 2px 1px #a1a1a1;
+
+}
+.sombreado2 {
+    Color: white
+    /*É possível mesclar e colocar vários sombreados no texto*/
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+}

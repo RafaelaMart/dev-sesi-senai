@@ -1,0 +1,44 @@
+.borda1{
+    border: 1px solid black;
+}
+
+.borda2{
+    border-bottom: 2px solid red;
+}
+
+.borda3{
+    border: 1px solid green;
+}
+
+.borda4{
+    border-left: 4px solid blue;
+    background-color: rgb(150, 253, 255);
+}
+
+.borda5{
+    border-top: 1px solid blue;
+}
+
+.borda6{
+    border-top: 4px solid yellow;
+    border-left: 4px double green;
+    border-bottom: 4px dashed red;
+    border-right: 4px dotted blue;
+}
+.img{
+    height: 500px;
+    width: 500px;
+  border-radius: 50px;
+}
+.img2{
+    height: 500px;
+    width: 500px;
+    border-radius:800px ;
+}
+.img3 {
+    height: 500px;
+    width: 500;
+    border-radius: 800px;
+    border-bottom:4px solid blueviolet;
+    border-
+}

@@ -1,0 +1,33 @@
+.h3{
+    height: 200x;
+width: 150px;
+}
+ body{
+    background-color: rgb(158, 174, 255);
+ }
+
+ .principal{
+   background-color: white;
+   width: 600px;
+   margin: auto;
+ }
+
+.titulo1{
+border-left: 4px solid rgb(91, 48, 137);
+border-bottom: 4px solid rgb(91, 48, 137);
+border-radius: 20px;
+}
+
+.titulo2{
+border-left: 4px solid rgb(91, 48, 137);
+border-bottom: 4px solid rgb(91, 48, 137);
+border-radius: 20px;
+}
+
+.div2{
+text-align:center ;
+}
+
+.div3{
+text-align: right;
+}

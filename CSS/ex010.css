@@ -1,0 +1,36 @@
+.botao1{
+    background-color: darkblue;
+    color: rgb(255,255,255);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 5px solid rgb(255,255,255);
+}
+
+ .botao2{
+    background-color: rgb(74, 199, 103);
+    color: rgb(255,255,255)
+    padding: 20px ;
+    text-decoration: none;
+    border: 5px solid rgb(83, 255, 17,118); 
+    border-radius: 20px;
+ }
+
+ .botao3{
+    background-color: rgb(236,25, 25);
+    color: rgb(255,255,255);
+    padding: 20px 40x;
+    text-decoration: none;
+    border: 3px solid rgba(126,117,16);
+    border-radius: 20px 0px;
+ }
+ .botao4{
+    background-color: rgb(170, 151, 8);
+    color:rgb(255,255,255);
+    padding: 20px 20px;
+    text-decoration: none;
+    border: 5px solid rgb(170, 151, 8)
+    border-radius: 20px 0px 0px 20px;
+   
+   
+ }
